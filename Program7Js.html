@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+label{
+padding:20px;
+}
+form{
+padding:20px;
+}
+
+</style>
+<title>Registration Form</title>
+</head>
+<body bgcolor="#7fc908">
+<h1 align="center"><b>Registration form</b></h1>
+<br>
+<form align="middle">
+<label for="name">Name :</label><input type="text" id="name"placeholder="Name" name="name"onclick="nfunction()">
+<br><br>
+<label for="Email">Email :</label><input type="email" placeholder="Email"id="Email"onclick="efunction()">
+<br><br>
+<label for="phone">Mobile :</label><input type="tel" name="Telephone" placeholder="Mobile number"pattern="[0-9]{10}"onclick="tfunction()">
+<br><br>
+<label for="uname">User Name :</label><input type="text" placeholder="User name"id="uname"onclick="unfunction()">
+<br><br>
+<label for="psw">Password :</label><input type="password" name="psw" onclick="pfunction()">
+<br><br>
+<button id="btn1" onclick="mfunction()">Submit</button
+<input type="reset" value="reset">
+</body>
+</form>
+
+<script>
+function nfunction(){
+alert("Enter name");
+}
+function efunction(){
+alert("Enter email");
+}
+function tfunction(){
+alert("Enter phone number");
+}
+function unfunction(){
+alert("Enter user name");
+}
+function pfunction(){
+alert("Enter password");
+}
+function mfunction(){
+alert("Data submitted");
+}
+</script>
+</html>

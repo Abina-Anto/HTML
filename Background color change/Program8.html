@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+button{
+align:center;
+}
+</style>
+<title>Color Change</title>
+</head>
+<body>
+<h1>Background color change</h1>
+<button id="btn1" onclick="mfunction()">Submit</button>
+</body>
+<script>
+let color=document.getElementById('btn1');
+function mfunction(){
+let bgcolor='#'+Math.floor(Math.random()*100000).toString(16);
+document.body.style.backgroundColor = bgcolor;
+}
+</script>
+</html>

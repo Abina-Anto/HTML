@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    background-image: url(cal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#input{
+    color: whitesmoke;
+
+}
+i{
+    color: aliceblue;
+}
+li {
+    list-style: none;
+    padding: 5px;
+
+}
